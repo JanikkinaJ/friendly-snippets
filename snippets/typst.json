@@ -1,0 +1,28 @@
+{
+   "bibliography" : {
+      "prefix" : "bib",
+      "body" : [
+         "#bibliography(",
+         "\t${2:filename},",
+         "\tstyle: \"apa\"",
+         ")"
+      ],
+      "description" : "bibliography"
+   },
+   "figure" : {
+       "prefix" : "fig",
+       "body" : [
+           "#figure(",
+           "\timage(",
+           "\t\t\"${1:filename}\",",
+           "\t\twidth: 90%,",
+           "\t\talt: \"${2:alt}\",",
+           "),",
+           "caption: [",
+           "${3:caption}",
+           "],",
+           ")"
+       ],
+       "description" : "figure"
+   }
+}

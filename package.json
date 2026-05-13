@@ -229,6 +229,10 @@
                 "path": "./snippets/julia.json"
             },
             {
+                "language": "typst",
+                "path": "./snippets/typst.json"
+            },
+            {
                 "language": [
                     "html",
                     "jade",
